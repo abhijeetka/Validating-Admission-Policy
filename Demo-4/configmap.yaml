@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: "label-in-deployments"
+  namespace: "default"
+data:
+  registryName: "docker.io"

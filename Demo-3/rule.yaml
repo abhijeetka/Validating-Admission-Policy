@@ -1,0 +1,6 @@
+apiVersion: profcloud.com/v1
+kind: ExcludeTag
+metadata:
+  name: "image-tag.profcloud.com"
+spec:
+  excludeTags: latest

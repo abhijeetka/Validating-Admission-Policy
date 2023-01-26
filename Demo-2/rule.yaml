@@ -1,0 +1,6 @@
+apiVersion: profcloud.com/v1
+kind: ReplicaLimit
+metadata:
+  name: "test.profcloud.com"
+spec:
+  minReplicas: 3
